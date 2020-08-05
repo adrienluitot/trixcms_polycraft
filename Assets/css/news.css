@@ -1,0 +1,120 @@
+/* News Post */
+.news-content {
+    padding: 0 2rem;
+}
+.news-content .img-container {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.news-content img {
+    width: auto;
+    height: 100%;
+}
+.news-content .news-text {
+    margin: 2rem 0;
+    font-size: 1.15rem;
+}
+.news-content .news-info {
+    font-size: .9rem;
+    color: #333;
+}
+
+.news-comments {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.comment {
+    position: relative;
+    width: calc(100% - 2rem);
+    margin-right: 2rem;
+    background: #151515;
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+.comment.news-author {
+    background: #FEE165;
+    color: #111;
+    width: calc(100% - 2rem);
+    margin-left: 2rem;
+}
+
+.comment .comment-author {
+    line-height: 32.67px;
+}
+
+.comment .hex-head {
+    width: 28px;
+    height: 32.67px;
+}
+
+.comment-content {
+    padding: .5rem;
+}
+
+.comment-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #c8c8c8;
+    padding: 0 .5rem;
+}
+.comment.news-author .comment-footer { color: #444; }
+
+.comment-footer .comment-date {
+    font-size: .8rem;
+}
+
+.comment-footer span.btn-light {
+    background: #ccc !important;
+}
+.comment-footer span.btn-main {
+    background: #181818 !important;
+}
+
+.comment .delete-comment-zone {
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+}
+.comment .delete-comment-zone button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: tomato;
+    margin: 0;
+}
+
+/* News List */
+.all-news .news-info .news-info-container {
+    background: #181818;
+    padding: .75rem 1rem 1rem 1rem;
+}
+
+.all-news .news-info .news-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+.all-news .news-info .news-title {
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+}
+.all-news .news-info .news-desc {
+    font-size: .9rem;
+    margin-bottom: .4rem;
+}
+.all-news .news-info .news-desc p {
+    margin-bottom: .2rem;
+    color: #eee;
+}
+
+
+

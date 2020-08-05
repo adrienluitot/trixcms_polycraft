@@ -1,0 +1,47 @@
+.content{
+    background-color: white;
+    padding: 20px;
+    color:black;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .mc{
+    background-image: url("/public/Modules/Play/img/mc_background.png");
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mc span {
+    color: rgb(201, 170, 2);
+  }
+  .ip{
+    margin-top: 15px;
+    color:white!important;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+  }
+  .launcher{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .launcher i{
+    text-align: center;
+    font-size: 200px;
+  }
+  .launcher a{
+    color:black;
+    transition:0.3s;
+  }
+  .launcher a:hover{
+    color:rgba(0, 0, 0, 0.6);
+  }

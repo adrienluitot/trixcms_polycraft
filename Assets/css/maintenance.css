@@ -1,0 +1,75 @@
+.maintenance {
+    text-align: center;
+}
+
+.maintenance h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.maintenance .logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.maintenance h3 {
+    font-size: 3rem;
+}
+
+.maintenance .text {
+    font-size: 1.4rem;
+}
+
+/* External */
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-cover {
+    position: absolute;
+    z-index: -1;
+    width: 100vw; height: 100vh;
+    top: 0; left: 0;
+    background: rgba(255,255,255,.3);
+}
+
+.ext-maintenance {
+    text-align: center;
+}
+
+.ext-maintenance .title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.ext-maintenance img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    animation-name: zooming;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-bottom: 1rem;
+}
+
+.ext-maintenance .contains {
+    font-size: 1.5rem;
+}
+
+@keyframes zooming {
+    0% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+}

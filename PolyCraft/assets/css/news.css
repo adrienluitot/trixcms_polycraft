@@ -1,0 +1,74 @@
+/* News */
+.news-content {
+    padding: 0 2rem;
+}
+.news-content .img-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.news-content img {
+    max-width: 100%;
+    height: auto;
+}
+.news-content .news-text {
+    margin: 2rem 0;
+    font-size: 1.15rem;
+}
+.news-content .news-info {
+    font-size: .9rem;
+    color: #333;
+}
+
+.news-comments {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.comment {
+    width: calc(100% - 2rem);
+    margin-right: 2rem;
+    background: #151515;
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+.comment.news-author {
+    background: #FEE165;
+    color: #111;
+    width: calc(100% - 2rem);
+    margin-left: 2rem;
+}
+
+.comment .comment-author {
+    line-height: 32.67px;
+}
+
+.comment .hex-head {
+    width: 28px;
+    height: 32.67px;
+}
+
+.comment-content {
+    padding: .5rem;
+}
+
+.comment-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #c8c8c8;
+    padding: 0 .5rem;
+}
+.comment.news-author .comment-footer { color: #444; }
+
+.comment-footer .comment-date {
+    font-size: .8rem;
+}
+
+.comment-footer span.btn-light {
+    background: #ccc !important;
+}
+.comment-footer span.btn-main {
+    background: #181818 !important;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "PolyCraft",
+    "slug": "PolyCraft",
+    "version": "1.0.11",
+    "author": "Alfiory",
+    "sliders": true,
+    "include": "inc",
+    "id": "_258348551809213",
+    "config": {
+        "logo": "http:\/\/i.adrien-luitot.fr\/logopc.png",
+        "background-image": "https:\/\/images.pexels.com\/photos\/682764\/pexels-photo-682764.png?auto=compress&cs=tinysrgb&dpr=2",
+        "twitter-link": "https:\/\/twitter.com",
+        "facebook-link": "https:\/\/facebook.com",
+        "youtube-link": "https:\/\/youtube.com",
+        "discord-link": "https:\/\/discordapp.com",
+        "shop-cats-background": "https:\/\/images.pexels.com\/photos\/698654\/pexels-photo-698654.png?auto=compress&cs=tinysrgb&dpr=2",
+        "shop-goal-text": "Les achats sur la boutique nous permettent de payer ou d'am\u00e9liorer le serveur. Si le serveur vous pla\u00eet vous pouvez <a href='%credit_link%'>cr\u00e9diter votre compte<\/a> pour acheter des articles et aider le serveur."
+    }
+}

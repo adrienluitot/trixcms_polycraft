@@ -1,0 +1,50 @@
+/*** USER ***/
+.login,
+.register,
+.lost-pass {
+    padding: 1rem;
+}
+
+.profile-content {
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.login a,
+.register a {
+    color: #252525;
+    display: block;
+}
+
+.register button,
+#cgu-check {
+    margin-top: 1rem;
+}
+
+#cgu-check {
+    cursor: pointer;
+    display: block;
+}
+#cgu-check input {
+    cursor: pointer;
+}
+
+.dfa-key {
+    font-weight: bold;
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+}
+
+.bearing, .bearing-avaible {
+    padding: 0 1.5rem;
+    margin-bottom: 1.1rem;
+}
+.bearing-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.bearing .progress {
+    margin-bottom: .5rem;
+}

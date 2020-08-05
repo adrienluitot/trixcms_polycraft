@@ -1,0 +1,57 @@
+.support-table .pc-table {
+    margin: 1rem 10px;
+    min-width: 1046px;
+}
+
+.sup-cat { width: 20%; }
+.sup-object { width: 30%; }
+.sup-create { width: 25%; }
+.sup-state { width: 15%; }
+.sup-action { width: 10%; text-align: center; }
+
+.support-table-closed .sup-cat { width: 25%; }
+.support-table-closed .sup-object { width: 35%; }
+.support-table-closed .sup-action { width: 15%; }
+
+.resolve-ticket {
+    cursor: pointer;
+}
+
+
+.ticket-message {
+    padding-left: 4rem;
+}
+.ticket-message.support-answer {
+    padding: 0;
+    padding-right: 4rem;
+}
+
+.ticket-message .message-author {
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.ticket-message .message-author img {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 25px;
+    height: 29.17px;
+    margin-right: .4rem;
+}
+
+.ticket-message .message-content {
+    margin-bottom: 1.2rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: .6rem;
+    background: #222;
+    color: #fff;
+}
+.ticket-message.support-answer .message-content {
+    background: #FEE166;
+    color: #222;
+}
+
+.ticket-message .message-content p {
+    margin: 0;
+}

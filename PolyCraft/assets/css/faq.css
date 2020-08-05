@@ -1,0 +1,18 @@
+.faq-question {
+    background: #FEE166;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.faq-question a {
+    padding: .5rem 1rem;
+    color: #222;
+    text-decoration: none;
+    display: block;
+}
+
+.faq-answer {
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    background: #222;
+    color: #fff;
+}

@@ -1,0 +1,25 @@
+.partner{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.partner .img-link {
+    display: block;
+}
+.partner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.partner .name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: .3rem;
+}
+
+.partner a {
+    color: #515151;
+    font-size: .9rem;
+}

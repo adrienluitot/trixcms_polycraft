@@ -1,0 +1,106 @@
+/*** VOTE ***/
+.vote .objectif {
+    padding: 1rem 2.5rem;
+}
+
+.vote-infos {
+    margin-top: 2rem;
+}
+
+.vote .pc-table {
+    min-width: 420px;
+}
+
+.vote .vote-place { width: 94px; text-align: center; }
+.vote .vote-player { width: calc(60% - 47px); }
+.vote .vote-count { width: calc(40% - 47px); text-align: center; }
+.vote .vote-player .hex-head {
+    width: 24px;
+    height: 28px;
+}
+.vote .vote-player .hex-head img {
+    transform: translateX(-2px);
+}
+
+.rewards .pc-table { margin: 1rem 10px; }
+
+.vote .reward-proba { width: 120px; text-align: center; }
+.vote .reward-name { width: calc(100% - 120px); }
+
+.vote .vote-btn {
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+}
+
+.servers {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+}
+
+.servers .server .server-name {
+    display: block;
+    background: #252525;
+    color: #fff;
+    padding: .4rem .8rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.servers {
+    position: relative;
+}
+.servers .waiting {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 50;
+    cursor: not-allowed;
+    background: rgba(37, 37, 37, .8);
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.servers.disabled .waiting {
+    display: flex;
+}
+
+.servers .waiting .waiting-content {
+    text-align: center;
+}
+.servers .waiting .waiting-content i {
+    margin-bottom: .5rem;
+}
+.servers .waiting .waiting-content span {
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+}
+
+.servers .server .websites button {
+    display: block;
+    padding: .4rem .8rem;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s all;
+    width: 100%;
+    border: none;
+}
+.servers .server .websites button:not(.disabled):hover {
+    background: #333;
+}
+.servers .server .websites button.disabled {
+    opacity: .7;
+    cursor: not-allowed;
+}
+
+#rewards {
+    display: none;
+}
+#rewards #button_final {
+    text-align: center;
+}

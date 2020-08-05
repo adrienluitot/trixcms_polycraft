@@ -1,0 +1,53 @@
+.cps-container {
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 257.14px; height: 300px;
+    margin: 0 auto;
+    background: #d4d4d4;
+    color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#circle-countdown {
+    position: absolute;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0px; height: 0px;
+    background: #FED214;
+    transition: all 10s linear;
+}
+
+.cps-container span {
+    z-index: 100;
+    pointer-events: none;
+}
+.cps-container span::selection {
+    background: transparent;
+}
+#cps-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#clicker-count {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.cps-table {
+    min-width: 357px;
+}
+.cps-table > li li {
+    width: 50%;
+}
+
+/** Responsive **/
+@media screen and (max-width: 770px) {
+    .cps-table > li > ul li:first-child { width: 70%; }
+    .cps-table > li > ul li:last-child { width: 30%; }
+}
